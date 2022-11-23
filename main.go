@@ -40,7 +40,7 @@ import (
 
 	_ "github.com/FloatTech/zbputils/job" // 定时指令触发器
 
-	//                               ^^^^                               //
+	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chat"// BOT名字
 	//                          ^^^^^^^^^^^^^^                          //
 	//                      ^^^^^^^高优先级区^^^^^^^                      //
 	//               ^^^^^^^^^^^^^^高优先级区^^^^^^^^^^^^^^               //
@@ -56,8 +56,7 @@ import (
 	//               vvvvvvvvvvvvvv中优先级区vvvvvvvvvvvvvv               //
 	//                      vvvvvvv中优先级区vvvvvvv                      //
 	//                          vvvvvvvvvvvvvv                          //
-	//                               vvvv                               //
-
+	_"设置ai绘图配置 http://91.216.169.75:5010 abc"
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"         // ahsai tts
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ai_false"      // 服务器监控
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint"       // ai绘图
