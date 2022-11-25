@@ -290,7 +290,7 @@ func main() {
 		})
 	zero.OnFullMatch("查看zbp公告", zero.OnlyToMe, zero.AdminPermission).SetBlock(true).
 		Handle(func(ctx *zero.Ctx) {
-			ctx.SendChain(message.Text(kanban.Kanban())) 
+			ctx.SendChain(message.Text(kanban.Kanban()))
 		})
 	zero.RunAndBlock(&config.Z, process.GlobalInitMutex.Unlock)
 }
